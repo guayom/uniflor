@@ -120,6 +120,13 @@ ul.product-list .amount{
      margin-bottom: 60px;
  }
 
-.main-logo{
-  margin-top: 20px;
+.sticky-menu{
+  .main-logo{
+    margin-top: 20px;
+  }
+  &.fixed{
+    .main-logo{
+      margin-top: 0;
+    }
+  }
 }

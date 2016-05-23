@@ -4,21 +4,21 @@ layout: default
 {% include header.html %}
 <div id="content" role="main"{% if page.custombg == true %} class="custombg"{% endif %}>
 	<div class="page-header parallax {{ page.header_class }} larger-desc skrollable skrollable-between" data-bgattach="/images/headers/{{ page.identifier }}.jpg" data-0="background-position:50% 0px;" data-500="background-position:50% -100%" style="background-image: url(/images/headers/{{ page.headerimg }}); background-position: 50% 0px;">
-        <div class="container skrollable skrollable-between" data-0="opacity:1;" data-top="opacity:0;" style="opacity: 1;">
-            <div class="row">
-              <div class="col-md-12">
-	                <h1 class="less-margin">{{ page.title }}</h1>
-	                <!--<p class="page-header-desc">{{ page.description }}</p>-->
-	                <div class="mb30"></div>
-	            </div><!-- End .col-md-6 -->
-	            <!-- Breadcrumbs here -->
-            </div><!-- End .row -->
-        </div><!-- End .container -->
+      <div class="container skrollable skrollable-between" data-0="opacity:1;" data-top="opacity:0;" style="opacity: 1;">
+          <div class="row">
+            <div class="col-md-12">
+                <img src="/images/logos/{{ page.identifier }}.png" alt="{{ page.title }}" />
+                <!--<p class="page-header-desc">{{ page.description }}</p>-->
+                <div class="mb30"></div>
+            </div><!-- End .col-md-6 -->
+            <!-- Breadcrumbs here -->
+          </div><!-- End .row -->
+      </div><!-- End .container -->
     </div>
 	<div class="container{% if page.custombg == true %} custombg-container{% endif %}">
     <div class="row">
       <div class="col-md-6">
-        <img src="/images/logos/{{ page.identifier }}.png" alt="{{ page.title }}" />
+        <h1 class="less-margin">{{ page.title }}</h1>
         <br />
         <br />
     	  {{ content }}
