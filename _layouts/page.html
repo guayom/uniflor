@@ -7,7 +7,7 @@ layout: default
       <div class="container skrollable skrollable-between" data-0="opacity:1;" data-top="opacity:0;" style="opacity: 1;">
           <div class="row">
             <div class="col-md-12">
-                <img src="/images/logos/{{ page.identifier }}.png" alt="{{ page.title }}" />
+                <h1 class="less-margin">{{ page.title }}</h1>
                 <!--<p class="page-header-desc">{{ page.description }}</p>-->
                 <div class="mb30"></div>
             </div><!-- End .col-md-6 -->
@@ -18,7 +18,7 @@ layout: default
 	<div class="container{% if page.custombg == true %} custombg-container{% endif %}">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="less-margin">{{ page.title }}</h1>
+        <img src="/images/logos/{{ page.identifier }}.png" alt="{{ page.title }}" />
         <br />
         <br />
     	  {{ content }}
