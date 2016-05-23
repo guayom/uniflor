@@ -1,0 +1,43 @@
+ - title: Sulá Farms
+   thumb: images/slides/sula.jpg
+   image: images/slides/sula.jpg
+   alt: slidebg2
+   lazyload: images/homesliders/slide2.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800
+
+  divs:
+   - content: Sulá Farms
+     class: tp-caption rev-subtitle lfb ltt
+     y: 20
+     speed: 1000
+     endspeed: 700
+     start: 900
+     style: 'z-index: 10'
+
+   - content: Sulá Farms
+     class: tp-caption rev-title lfb ltt
+     y: 240
+     speed: 1000
+     endspeed: 700
+     start: 1000
+     style: 'z-index: 6'
+
+ - title: Río Tapezco
+   thumb: images/slides/riotapezco.jpg
+   image: images/slides/riotapezco.jpg
+   alt: slidebg3
+   lazyload: images/slides/riotapezco.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800
+
+ - title: Orchimex
+   thumb: images/homesliders/orchimex.jpg
+   image: images/homesliders/orchimex.jpg
+   alt: slidebg3
+   lazyload: images/homesliders/orchimex.jpg
+   transition: fade
+   slotamount: 8
+   masterspeed: 800

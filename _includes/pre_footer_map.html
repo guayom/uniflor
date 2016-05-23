@@ -1,0 +1,8 @@
+<div class="bg-lightergray pt60 pre-footer">
+  <header class="title-block text-center mb50">
+      <h2 class="title-border custom text-uppercase text-center mb20"><span>{{translation.find_us}}</span></h2>
+      <br/>
+      <p>{% include waze-link.html %} <a href="https://www.google.com/maps/dir/Current+Location/{{site.lat}},{{site.lon}}" target="_blank" class="btn btn-dark no-radius min-width"><i class="fa fa-map"></i> {{ translation.googlemaps }}</a></p>
+  </header>
+  {% include maps_script.html %}
+</div>

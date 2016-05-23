@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+
+  {% include head.html %}
+
+  <body>
+    <div id="wrapper">
+      <!--<div class="boss-loader-overlay"></div><!-- End .boss-loader-overlay -->
+      {{ content }}
+    </div>
+    <a href="#top" id="scroll-top" title="Back to Top"><i class="fa fa-angle-up"></i></a>
+    {% include footer.html %}
+
+    <!-- Smoothscroll -->
+    <script src="{{base}}/js/smoothscroll.js"></script>
+    <script src="{{base}}/js/bootstrap.min.js"></script>
+    <script src="{{base}}/js/jquery.hoverIntent.min.js"></script>
+    <script src="{{base}}/js/jquery.nicescroll.min.js"></script>
+    <script src="{{base}}/js/waypoints.min.js"></script>
+    <script src="{{base}}/js/waypoints-sticky.min.js"></script>
+    <script src="{{base}}/js/jquery.debouncedresize.js"></script>
+    <script src="{{base}}/js/retina.min.js"></script>
+    <script src="{{base}}/js/owl.carousel.min.js"></script>
+    <script src="{{base}}/js/jflickrfeed.min.js"></script>
+    <script src="{{base}}/js/twitter/jquery.tweet.min.js"></script>
+    <script src="{{base}}/js/skrollr.min.js"></script>
+    <script src="{{base}}/js/jquery.countTo.js"></script>
+    <script src="{{base}}/js/isotope.pkgd.min.js"></script>
+    <script src="{{base}}/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{base}}/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{base}}/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{base}}/js/wow.min.js"></script>
+    <script src="{{base}}/js/jquery.validate.min.js"></script>
+    <script src="{{base}}/js/contact.js"></script>
+    <script src="{{base}}/js/main.js"></script>
+
+    <script>
+        (function () {
+            "use strict";
+            // Slider Revolution
+            jQuery('#revslider').revolution({
+                delay:8000,
+                startwidth:1170,
+                startheight:500,
+                fullWidth:"on",
+                fullScreen:"on",
+                hideTimerBar: "off",
+                spinner:"spinner4",
+                navigationStyle: "preview4",
+                soloArrowLeftHOffset:20,
+                soloArrowRightHOffset:20
+            });
+        }());
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,88 @@
+---
+layout: default
+---
+{% include header.html %}
+<div id="content" role="main"{% if page.custombg == true %} class="custombg"{% endif %}>
+	<div class="page-header parallax {{ page.header_class }} larger-desc skrollable skrollable-between" data-bgattach="/images/headers/{{ page.identifier }}.jpg" data-0="background-position:50% 0px;" data-500="background-position:50% -100%" style="background-image: url(/images/headers/{{ page.headerimg }}); background-position: 50% 0px;">
+        <div class="container skrollable skrollable-between" data-0="opacity:1;" data-top="opacity:0;" style="opacity: 1;">
+            <div class="row">
+              <div class="col-md-12">
+	                <h1 class="less-margin">{{ page.title }}</h1>
+	                <!--<p class="page-header-desc">{{ page.description }}</p>-->
+	                <div class="mb30"></div>
+	            </div><!-- End .col-md-6 -->
+	            <!-- Breadcrumbs here -->
+            </div><!-- End .row -->
+        </div><!-- End .container -->
+    </div>
+	<div class="container{% if page.custombg == true %} custombg-container{% endif %}">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/logos/{{ page.identifier }}.png" alt="{{ page.title }}" />
+        <br />
+        <br />
+    	  {{ content }}
+      </div>
+      <div class="col-md-6">
+          <div class="owl-carousel aboutus-slider owl-theme">
+            {% for img in page.images %}
+              <img src="/images/{{page.identifier}}/{{ img }}" />
+            {% endfor %}
+          </div><!-- End .owl-carousel -->
+      </div>
+    </div>
+    <hr class="mt35 mb50">
+
+    <div class="row">
+
+      <div class="col-sm-8">
+          <h2 class="title-underblock dark mb30">Get In Touch</h2>
+          <form action="php/mail.php" method="post" id="contact-form" novalidate="novalidate">
+              <div class="form-group">
+                  <label for="contactname" class="input-desc">Name</label>
+                  <input type="text" class="form-control" id="contactname" name="contactname" placeholder="Your Name" required="" aria-required="true">
+              </div><!-- End .from-group -->
+              <div class="form-group">
+                  <label for="contactemail" class="input-desc">Email</label>
+                  <input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Your Email" required="" aria-required="true">
+              </div><!-- End .from-group -->
+              <div class="form-group">
+                  <label for="contactsubject" class="input-desc">Subject</label>
+                  <input type="text" class="form-control" id="contactsubject" name="contactsubject" placeholder="Subject">
+              </div><!-- End .from-group -->
+              <div class="form-group">
+                  <label for="contactmessage" class="input-desc">Message</label>
+                  <textarea class="form-control" rows="6" id="contactmessage" name="contactmessage" placeholder="Your Message" required="" aria-required="true"></textarea>
+              </div><!-- End .from-group -->
+
+              <div class="mb10"></div><!-- space -->
+
+              <div class="form-group">
+                  <input type="submit" class="btn btn-dark btn-block" data-loading-text="Sending..." value="Send Message">
+              </div><!-- End .from-group -->
+          </form>
+      </div><!-- End .col-sm-8 -->
+
+      <div class="mb20 visible-xs"></div><!-- space -->
+
+      <div class="col-sm-4">
+
+          <h3 class="mb20">Contact Information</h3>
+          <p>
+            <i class="fa fa-user" aria-hidden="true"></i> {{ page.contact.name }}
+            <br/>
+            <i class="fa fa-envelope"></i> {{ page.contact.email }}
+            <br/>
+            <i class="fa fa-phone"></i> {{ page.contact.phone }}
+            <br/>
+            <i class="fa fa-globe"></i> {{ page.contact.website }}
+            <br/>
+            <i class="fa fa-map-marker"></i> {{ page.contact.address }}
+          </p>
+
+          <div class="mb20"></div><!-- space -->
+
+      </div><!-- End .col-sm-4 -->
+  </div>
+	</div>
+</div>

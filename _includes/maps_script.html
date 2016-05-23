@@ -1,0 +1,43 @@
+<div id="map"></div>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+    /* Map */
+    (function () {
+        "use strict";
+
+        if (document.getElementById("map")) {
+            var locations = [
+                ['<div class="map-info-box"><ul class="contact-info-list"><li><span><i class="fa fa-home fa-fw"></i></span> Ark Herb Farm</li><li><span><i class="fa fa-phone fa-fw"></i></span>2269-4849</li></ul></div>', {{ site.lat }}, {{ site.lon }}, 9]
+            ];
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: new google.maps.LatLng({{ site.lat }}, {{ site.lon }},18.12),
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            });
+
+            var infowindow = new google.maps.InfoWindow();
+
+
+            var marker, i;
+
+            for (i = 0; i < locations.length; i++) {
+              marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map,
+                animation: google.maps.Animation.DROP,
+                icon: '/images/pin.png',
+              });
+
+              google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                  infowindow.setContent(locations[i][0]);
+                  infowindow.open(map, marker);
+                }
+              })(marker, i));
+            }
+        }
+
+    }());
+</script>

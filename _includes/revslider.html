@@ -1,0 +1,25 @@
+<div id="revslider-container">
+    <div id="revslider">
+        <ul>
+            {% for slide in site.data.slides %}
+                <li data-transition="{{ slide.transition }}" data-slotamount="{{ slide.slotamount }}" data-masterspeed="{{ slide.masterspeed }}" data-title="{{ slide.title }}" data-thumb="{{ site.baseurl }}/{{ slide.thumb }}">
+                    <!-- background image -->
+                    <img src="{{ site.url }}/{{ slide.image }}"  alt="{{ site.url }}/{{ site.alt }}" data-lazyload="{{ site.url }}/{{ slide.lazyload }}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                    {% for div in slide.divs %}
+                        <div class="{{ div.class }}"
+                            data-x="center"
+                            data-y="{{ div.y }}"
+                            data-speed="{{ div.speed }}"
+                            data-start="{{ div.start }}"
+                            data-easing="Power3.easeInOut"
+                            data-endspeed="{{ div.endspeed }}"
+                            style="{{ div.style }}">{% if page.lang == 'en' %}{{ div.content }}{% else %}{{ div.content-es }}{% endif %}
+                        </div>
+                    {% endfor %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div><!-- End #revslider -->
+    <a href="#id-to-scroll" class="scroll-btn light" data-offset="-55" data-0="opacity:1" data-top-bottom="opacity:0;" title="Go Down"><span></span></a>
+</div><!-- End #revslider-container -->

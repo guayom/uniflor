@@ -1,0 +1,125 @@
+h1.less-margin{
+	margin-bottom: 0;
+}
+.asterisk{
+	color: red;
+}
+ul.product-list{
+}
+ul.product-list li{
+	text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 0 20px 20px 20px;
+}
+ul.product-list .product-container{
+	border: 1px solid #e9e9e9;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+ul.product-list li h3{
+  margin-bottom: 10px;
+  color: #333;
+  color: #fff;
+  background: url(../images/bg-product.jpg) bottom center;
+  padding: 20px;
+
+  font-size: 1.6em;
+}
+ul.product-list .price{
+	text-align: center;
+	width: 33%;
+	display: inline-block;
+}
+ul.product-list .amount{
+	clear: both;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #5D8828;
+}
+.table{
+  thead > tr{
+    border-top-color: $darker-green;
+    border-bottom-color: $darker-green;
+  }
+  thead>tr>th{
+    background-color: $green;
+    color: #fff;
+    border-color: $darker-green;
+  }
+  tbody>tr:first-child >td{
+    border-top-color: $darker-green;
+  }
+}
+.pre-footer{
+  #map{
+    margin-bottom:0;
+  }
+}
+.flowers-bg{
+  //background: url('../images/vivero-2.jpg') left top no-repeat;
+}
+.mobileShow { display: none;}
+ /* Smartphone Portrait and Landscape */
+
+.table.table-condensed > thead > tr > th, .table.table-condensed > tbody > tr > th, .table.table-condensed > tfoot > tr > th, .table.table-condensed > thead > tr > td, .table.table-condensed > tbody > tr > td, .table.table-condensed > tfoot > tr > td, .table.table-condensed > thead > tr > th:first-child, .table.table-condensed > tbody > tr > td:first-child{
+  padding: 8px;
+}
+
+.custombg{
+  background: url(../images/flowers-bg-2.jpg) repeat-x;
+  background-position-y: 400px;
+  &#content{
+    padding-bottom: 0;
+  }
+  .custombg-container{
+    background:white;
+    padding: 50px;
+  }
+  .page-header{
+    margin-bottom: 0;
+  }
+}
+
+.no-margin-bottom{
+  margin-bottom: 0;
+}
+.tour-features{
+  text-align: left;
+  li{
+    text-align: left;
+    &:after{
+      left:0 !important;
+      margin-left: 0 !important;
+    }
+  }
+}
+.vcenter.icons{
+  padding-right: 30px;
+  .icon{
+    width: 15%;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+.prices-tours{
+  text-align: right;
+  table{
+    float: right;
+  }
+}
+
+ @media only screen
+ and (min-device-width : 320px)
+ and (max-device-width : 480px){ .mobileShow { display: inline;}}
+
+ .page-header {
+     padding: 35px 0 20px;
+     margin-bottom: 60px;
+ }
+
+.main-logo{
+  margin-top: 20px;
+}

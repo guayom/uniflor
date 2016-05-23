@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% include header.html %}
+<div id="content" role="main" class="no-padding">
+	<div class="page-header parallax {{ page.header_class }} larger-desc skrollable skrollable-between" data-bgattach="/images/headers/{{ page.headerimg }}" data-0="background-position:50% 0px;" data-500="background-position:50% -100%" style="background-image: url(/images/headers/{{ page.headerimg }}); background-position: 50% 0px;">
+                <div class="container skrollable skrollable-between" data-0="opacity:1;" data-top="opacity:0;" style="opacity: 1;">
+            <div class="row">
+                <div class="col-md-12">
+	                <h1>{{ page.title }}</h1>
+	                <p class="page-header-desc">{{ page.description }}</p>
+	            </div><!-- End .col-md-6 -->
+	            <!-- Breadcrumbs here -->
+            </div><!-- End .row -->
+        </div><!-- End .container -->
+    </div>
+	<div class="container-fluid no-padding">
+	  {{ content }}
+	</div>
+</div>

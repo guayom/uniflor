@@ -1,0 +1,70 @@
+{% assign translation = site.data.translations[page.lang] %}
+<header id="header" role="banner">
+  <div class="collapse navbar-white special-for-mobile" id="header-search-form">
+      <div class="container">
+          <form class="navbar-form animated fadeInDown" role="search">
+              <input type="search" id="s" name="s" class="form-control" placeholder="Search in here...">
+              <button type="submit" class="btn-circle" title="Search"><i class="fa fa-search"></i></button>
+          </form>
+      </div><!-- End .container -->
+  </div><!-- End #header-search-form -->
+  {% if page.style == 'white' %}
+  <nav class="navbar navbar-white animated-dropdown ttb-dropdown" role="navigation">
+  {% else %}
+  <nav class="navbar navbar-white navbar-transparent animated-dropdown ttb-dropdown" role="navigation">
+  {% endif %}
+
+      <div class="navbar-top clearfix">
+          <div class="container">
+              <div class="pull-right">
+                  <div class="dropdowns-container pull-right clearfix">
+                      <div class="dropdown language-dropdown pull-right">
+                          <a href="{{ page.alt }}">
+                            {{ translation.translate }}
+                          </a>
+                      </div><!-- End .curreny-dropdown -->
+                  </div><!-- End. dropdowns-container -->
+
+              </div><!-- End .pull-right -->
+          </div><!-- End .container -->
+      </div><!-- End .navbar-top -->
+
+      <div class="sticky-wrapper"><div class="navbar-inner sticky-menu">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle btn-circle pull-right collapsed" data-toggle="collapse" data-target="#main-navbar-container">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                  </button>
+
+                  <a class="navbar-brand text-uppercase" href="/" title="Uniflor">
+                        <img src="/images/logos/uniflor.png" width='120' class="main-logo" />
+                  </a>
+
+                  <button type="button" class="navbar-btn btn-icon btn-circle pull-right last visible-sm visible-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
+
+                  <div class="dropdown cart-dropdown visible-sm visible-xs pull-right">
+                      <button type="button" class="navbar-btn btn-icon btn-circle dropdown-toggle" data-toggle="dropdown"><i class="fa fa-facebook"></i></button>
+                  </div><!-- End .cart-dropdown -->
+
+
+              </div><!-- End .navbar-header -->
+
+              <div class="collapse navbar-collapse" id="main-navbar-container">
+                  <ul class="nav navbar-nav">
+                      {% include mainmenu.html %}
+                  </ul>
+
+                  <!--
+                  <button type="button" class="navbar-btn btn-icon btn-circle navbar-right last  hidden-sm hidden-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button>
+                  -->
+
+                  {% for red in site.data.contact_info.social %}
+                    <a class="navbar-btn btn-icon btn-circle dropdown-toggle pull-right" href="{{ red.url }}"><i class="fa fa-{{ red.name }}"></i></a>&nbsp;
+                  {% endfor %}
+
+              </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+      </div></div><!-- End .navbar-inner -->
+  </nav>
+</header>
