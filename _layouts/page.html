@@ -71,11 +71,11 @@ layout: default
           <p>
             <i class="fa fa-user" aria-hidden="true"></i> {{ page.contact.name }}
             <br/>
-            <i class="fa fa-envelope"></i> {{ page.contact.email }}
+            <i class="fa fa-envelope"></i> <a href="mailto:{{ page.contact.email }}">{{ page.contact.email }}</a>
             <br/>
-            <i class="fa fa-phone"></i> {{ page.contact.phone }}
+            <i class="fa fa-phone"></i> <a href="tel:{{ page.contact.phone }}">{{ page.contact.phone }}</a>
             <br/>
-            <i class="fa fa-globe"></i> {{ page.contact.website }}
+            <i class="fa fa-globe"></i> <a href="http://{{ page.contact.website }}" target="_blank" rel="noopener">{{ page.contact.website }}</a>
             <br/>
             <i class="fa fa-map-marker"></i> {{ page.contact.address }}
           </p>
