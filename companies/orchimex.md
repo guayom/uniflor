@@ -16,7 +16,7 @@ images:
  - Orquitur-001.jpg
 contact:
  name: Myrna Jiménez Paris
- email: ssales@orchimex.com
+ email: sales@orchimex.com
  phone: +506 2639 1034
  website: www.orchimex.com
  address: Puntarenas, Costa Rica

@@ -15,6 +15,10 @@ contact:
  address: Río Cuarto, Alajuela, Costa Rica
 header_class: largest no-margin-bottom
 ---
-Somos una empresa productora y exportadora de follaje de phoenix roebelini, con trayectoría desde hace 20 años en el sector, exportando a europa y estados unidos.
+## Why choose Ornamentales R5?
+Hand grading in centrally located packing houses is made by well trained
+personnel under closer supervision to assure a constant quality throughout
+the year.
 
-Trabajamos en armonía con el medio ambiente, implementando normas de calidad y esquemas de certificación mps.
+Their selection of Phoenix Robellini is one of the best in the market, thanks to
+its high and stringent quality.
