@@ -7,7 +7,7 @@ images:
 contact:
  name: Luis Emilio Meza Gutiérrez
  email: floresnaturales@ice.co.cr
- phone: +506 2530-1165
+ phone: +506 8992-6454
  fax: +506 2530-1165
  website: #
  address: Costado Este del Cementerio de Llano Grande de Cartago, Costa Rica

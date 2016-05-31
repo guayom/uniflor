@@ -74,8 +74,14 @@ layout: default
             <i class="fa fa-envelope"></i> <a href="mailto:{{ page.contact.email }}">{{ page.contact.email }}</a>
             <br/>
             <i class="fa fa-phone"></i> <a href="tel:{{ page.contact.phone }}">{{ page.contact.phone }}</a>
+            {% if page.contact.fax %}
+            <br/>
+            <i class="fa fa-fax"></i> <a href="tel:{{ page.contact.fax }}" target="_blank" rel="noopener">{{ page.contact.fax }}</a>
+            {% endif %}
+            {% if page.contact.website %}
             <br/>
             <i class="fa fa-globe"></i> <a href="http://{{ page.contact.website }}" target="_blank" rel="noopener">{{ page.contact.website }}</a>
+            {% endif %}
             <br/>
             <i class="fa fa-map-marker"></i> {{ page.contact.address }}
             {% if page.contact.skype %}
