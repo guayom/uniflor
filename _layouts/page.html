@@ -78,6 +78,10 @@ layout: default
             <i class="fa fa-globe"></i> <a href="http://{{ page.contact.website }}" target="_blank" rel="noopener">{{ page.contact.website }}</a>
             <br/>
             <i class="fa fa-map-marker"></i> {{ page.contact.address }}
+            {% if page.contact.skype %}
+            <br/>
+            <i class="fa fa-skype"></i> {{ page.contact.skype }}
+            {% endif %}
           </p>
 
           <div class="mb20"></div><!-- space -->

@@ -4,7 +4,7 @@ identifier: floresnaturales
 layout: page
 weight: 3
 images:
-contact:
+contactp:
  name: Luis Emilio Meza Gutiérrez
  email: floresnaturales@ice.co.cr
  phone: +506 5301165
