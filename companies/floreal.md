@@ -18,8 +18,8 @@ contact:
  address: Costa Rica
 header_class: largest no-margin-bottom
 ---
-Floreal s.a.:  a reliable source of greens from costa rica.  More than 30 years experience in exporting greens in refrigerated sea containers as well as via air freight.
+Floreal s.a.:  a reliable source of greens from Costa Rica.  More than 30 years experience in exporting greens in refrigerated sea containers as well as via air freight. Special emphasis is put on short transit times and punctual delivery.
 
-Presently floreal exports to several european countries, japan, the middle east, usa, canada and the caribbean.
+Presently Floreal exports to several european countries, Japan, the Middle East, USA, Canada and the Caribbean.
 
-Floreal is the leading company in sustainable production of greens in costa rica.  The company offers leatherleaf and catpam ( chamaedorea cataractarum ) produced under natural shade in agroforestry projects.
+Floreal is the leading company in sustainable production of greens in costa rica.  The company offers leatherleaf and Catpalm ( Chamaedorea cataractarum ) produced under natural shade in agroforestry projects, among other 12 different greens.
