@@ -7,9 +7,14 @@ images:
  - 168.jpg
  - DSC00536.jpg
  - FLHELECHO.jpg
+ - IMG_8583.jpg
+ - IMG_8586.jpg
+ - IMG_8592.jpg
+ - IMG_8606.jpg
+ - IMG_8609.jpg
  - IMG_8616.jpg
- - IMG_8622 (1).jpg
  - IMG_8622.jpg
+ - IMG_8634.jpg
 contact:
  name: Christian Steinvorth
  email: csteinvorth@florealsa.com
