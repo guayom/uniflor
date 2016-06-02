@@ -1,0 +1,124 @@
+empresas:
+  delrio: "Del Rio Exotic Flowers"
+  floreal: "Floreal S.A"
+  flores: "Flores Naturales"
+  orchimex: "Orchimex de CR"
+  r5: "Ornamentales R5"
+  riotapezco: "Río Tapezco"
+  sula: "Sula Farms"
+
+products:
+  flowers:
+    - name: ammi majus
+      companies:
+        - riotapezco
+    - name: alpina
+      companies:
+        - delrio
+    - name: astilbe
+      companies:
+        - riotapezco
+    - name: aster
+      companies:
+        - riotapezco
+    - name: birds of paradise
+      companies:
+        - riotapezco
+        - sula
+    - name: anthuriums
+      companies:
+        - sula
+    - name: agapanthus
+      companies:
+        - riotapezco
+    - name: calatheas
+      companies:
+        - sula
+    - name: costus
+      companies:
+        - delrio
+    - name: crocosmia
+      companies:
+        - riotapezco
+    - name: crysantemos
+      companies:
+        - flores
+    - name: dendrobium
+      companies:
+        - orchimex
+    - name: etlingera
+      companies:
+        - delrio
+    - name: fire opal
+      companies:
+        - delrio
+    - name: gerbera
+      companies:
+        - flores
+        - riotapezco
+    - name: ginger
+      companies:
+        - delrio
+    - name: heliconia
+      companies:
+        - delrio
+    - name: iris
+      companies:
+        - riotapezco
+    - name: lillium
+      companies:
+        - flores
+        - riotapezco
+    - name: mokara
+      companies:
+        - orchimex
+    - name: ornithogalum
+      companies:
+        - riotapezco
+  greens:
+    - name: aralia
+      companies:
+        - floreal
+    - name: aspidistra
+      companies:
+        - floreal
+    - name: catpalm
+      companies:
+        - floreal
+    - name: green/black ti
+      companies:
+        - floreal
+        - delrio
+    - name: liriope
+      companies:
+        - floreal
+    - name: phoenix
+      companies:
+        - floreal
+        - r5
+    - name: leatherleaf fern
+      companies:
+        - floreal
+    - name: raphis
+      companies:
+        - floreal
+    - name: phylodendron
+      companies:
+        - floreal
+    - name: other cordylines
+      companies:
+        - floreal
+    - name: lip stick
+      companies:
+        - floreal
+    - name: cyca
+      companies:
+        - floreal
+  others:
+    - name: bouquets
+      companies:
+        - delrio
+        - flores
+        - orchimex
+        - riotapezco
+        - sula
