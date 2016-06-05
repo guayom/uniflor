@@ -146,3 +146,51 @@ ul.product-list .amount{
     //background-color: red;
   }
 }
+
+.bullet{
+  font-size: 2em;
+}
+
+table.table-matriz{
+  width: 100%;
+  thead{
+    th{
+      background: $darker-green;
+      font-size: 1em;
+      padding: 10px 5px;
+      vertical-align: middle;
+    }
+  }
+  tbody{
+    th{
+        position:fixed;
+    }
+    td{
+      padding: 5px 10px;
+    }
+    td:first-child, td{
+      padding: 5px 10px;
+      &.flowers{
+        background: $green;
+        color: #fff;
+        border-color: darken($green, 3%);
+        font-weight: bold;
+      }
+      &.greens{
+        background: $light-green;
+        border-color: darken($light-green, 5%);
+        color: #fff;
+        font-weight: bold;
+      }
+      &.others{
+        background: $darker-green;
+        border-color: darken($darker-green, 5%);
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.no-margin-header{
+  //margin: 0;
+}

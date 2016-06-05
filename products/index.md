@@ -1,22 +1,46 @@
 ---
 title: Products
 layout: products
+header_class: largest no-margin-bottom
+identifier: products
 ---
-<table class="table table-bordered">
-    <tr>
-      <th></th>
-      <th></th>
-      {% for company in site.data.productos.empresas %}
-        <th>
-          {{company[1] | capitalize}}
-        </th>
-      {% endfor %}
-    </tr>
-    {% for p in site.data.productos.products %}
-    <tr>
-      <td>
-        {{p[0] | capitalize}}
-      </td>
-     </tr>
-    {% endfor %}
-</table>
+
+  <table class="table table-bordered table-striped table-matriz table-fixed">
+    <thead>
+      <tr>
+        <th colspan="2" class="text-center">Product Category</th>
+        {% for company in site.data.productos.empresas %}
+          <th width="10%" class="text-center">
+            {{company[1]}}
+          </th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <div class="scrollable-area">
+      <tbody>
+        {% for p in site.data.productos.products %}
+
+          {% for p1 in p[1] %}
+          <tr>
+            {% if forloop.first == true %}
+              <td rowspan="{{ forloop.length }}" class="{{p[0]}}">
+                {{p[0] | capitalize}}
+              </td>
+            {% endif %}
+            <td class="{{p[0]}} filterable-cell">{{ p1.name | capitalize }}</td>
+            {% for company in site.data.productos.empresas %}
+              <td class="text-center bullet">
+                {% if p1.companies contains company[0] %}&#8226;{% endif %}
+              </td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </div>
+  </table>
+
+<script src="{{base}}/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+$('.table').stickyTableHeaders({fixedOffset: $('#main-navbar-container')});
+</script>
