@@ -21,16 +21,23 @@ products:
     - name: aster
       companies:
         - riotapezco
-    - name: birds of paradise
-      companies:
-        - riotapezco
-        - sula
+
     - name: anthuriums
       companies:
         - sula
     - name: agapanthus
       companies:
+
+      - name: birds of paradise
+      companies:
         - riotapezco
+        - sula  - riotapezco
+     - name: birds of paradise
+      companies:
+        - riotapezco
+        - sula  
+        
+        
     - name: calatheas
       companies:
         - sula
