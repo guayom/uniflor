@@ -10,7 +10,7 @@ empresas:
 products:
   flowers:
     - name: agapanthus
-      companies: 
+      companies:
        - riotapezco
     - name: alpina
       companies:
