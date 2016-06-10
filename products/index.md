@@ -42,5 +42,13 @@ identifier: products
 
 <script src="{{base}}/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript">
-$('.table').stickyTableHeaders({fixedOffset: $('#main-navbar-container')});
+$(window).scroll(function() {
+  if ($(document).scrollTop() >= 300) {
+    $('.table').stickyTableHeaders({
+      fixedOffset: $('#main-navbar-container')
+    });
+  } else {
+    $('.table').stickyTableHeaders('destroy');    
+  }
+});
 </script>
