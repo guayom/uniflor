@@ -9,35 +9,28 @@ empresas:
 
 products:
   flowers:
-    - name: ammi majus
-      companies:
-        - riotapezco
+    - name: agapanthus
+      companies: 
+       - riotapezco
     - name: alpina
       companies:
         - delrio
+    - name: ammi majus
+      companies:
+        - riotapezco
+    - name: anthuriums
+      companies:
+        - sula
     - name: astilbe
       companies:
         - riotapezco
     - name: aster
       companies:
         - riotapezco
-
-    - name: anthuriums
-      companies:
-        - sula
-    - name: agapanthus
-      companies:
-
-      - name: birds of paradise
-      companies:
-        - riotapezco
-        - sula  - riotapezco
-     - name: birds of paradise
+    - name: birds of paradise
       companies:
         - riotapezco
         - sula  
-        
-        
     - name: calatheas
       companies:
         - sula
@@ -92,7 +85,7 @@ products:
     - name: catpalm
       companies:
         - floreal
-    - name: green/black ti
+    - name: green/Black Ti
       companies:
         - floreal
         - delrio
@@ -103,7 +96,7 @@ products:
       companies:
         - floreal
         - r5
-    - name: leatherleaf fern
+    - name: leatherleaf Fern
       companies:
         - floreal
     - name: raphis
