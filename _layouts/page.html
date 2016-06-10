@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 {% include header.html %}
 <div id="content" role="main"{% if page.custombg == true %} class="custombg"{% endif %}>
@@ -74,6 +75,10 @@ layout: default
             <i class="fa fa-envelope"></i> <a href="mailto:{{ page.contact.email }}">{{ page.contact.email }}</a>
             <br/>
             <i class="fa fa-phone"></i> <a href="tel:{{ page.contact.phone }}">{{ page.contact.phone }}</a>
+  {% if page.contact.cellphone %}
+            <br/>
+            <i class="fa fa-globe"></i> <a href="tel:{{ page.contact.cellphone }}" target="_blank" rel="noopener">{{ page.contact.cellphone }}</a>
+            {% endif %}          
             {% if page.contact.fax %}
             <br/>
             <i class="fa fa-fax"></i> <a href="tel:{{ page.contact.fax }}" target="_blank" rel="noopener">{{ page.contact.fax }}</a>
