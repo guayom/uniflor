@@ -12,9 +12,10 @@ images:
 contact:
   name: Sergio Madrigal
   email: sales@sulafarms.com
-  phone: +506 8392-6954
+  phone: +506 2292 8080
+  cellphone: +506 8392-6954
   website: www.sulafarms.com
-  address: 'Puntarenas, Costa Rica'
+  address: 'Moravia, Costa Rica'
 header_class: largest no-margin-bottom
 published: true
 ---
