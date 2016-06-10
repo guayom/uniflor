@@ -5,19 +5,20 @@ layout: page
 weight: 3
 headerimg: test
 images:
- - DSC_0056.JPG
- - DSC_2141.JPG
- - IMG_8317.jpg
- - IMG_8357.jpg
- - IMG_8361.jpg
- - IMG_8372.jpg
+  - DSC_0056.JPG
+  - DSC_2141.JPG
+  - IMG_8317.jpg
+  - IMG_8357.jpg
+  - IMG_8361.jpg
+  - IMG_8372.jpg
 contact:
- name: Andrea Elizondo
- email: sales@riotapezco.com
- phone: +506 2231-4946
- website: www.riotapezco.com
- address: Zarcero, Costa Rica
+  name: Andrea Elizondo
+  email: msolis@riotapezco.com
+  phone: +506 2231-4946
+  website: www.riotapezco.com
+  address: 'Zarcero, Costa Rica'
 header_class: largest no-margin-bottom
+published: true
 ---
 ## Why choose Rio Tapezco?
 
