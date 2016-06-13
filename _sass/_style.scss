@@ -83,8 +83,8 @@ Version:1.0
 --------------------------------------------------
 ==================== Import =================== */
 
-/* 
-Import vertical spacing helper css file (minified) 
+/*
+Import vertical spacing helper css file (minified)
 To see how it work see vspacing.css file (unminified)
 */
 @import url('vspacing.min.css');
@@ -149,7 +149,7 @@ body {
 		margin:0 auto;
 		box-shadow: 3px 0 10px rgba(0,0,0, 0.15), -3px 0 10px rgba(0,0,0, 0.1);
 	}
-	
+
 	#wrapper.boxed,
 	#wrapper.boxed-long,
 	.boxed .sticky-menu.fixed .container,
@@ -188,11 +188,11 @@ body {
 		width:1170px;
 		margin: 50px auto;
 	}
-	
+
 	#wrapper.boxed,
 	#wrapper.boxed-long,
 	.boxed .sticky-menu.fixed .container,
-	.boxed-long .sticky-menu.fixed .container, 
+	.boxed-long .sticky-menu.fixed .container,
 	.boxed .sticky-menu.fixed .container-fluid,
 	.boxed-long .sticky-menu.fixed .container-fluid,
 	.boxed #header.sticky-menu.fixed .navbar-transparent,
@@ -217,7 +217,7 @@ body {
 	.boxed-long #header.sticky-menu.fixed .navbar-transparent {
 		width:1200px;
 	}
-	
+
 }
 
 .boss-loader-overlay {
@@ -599,7 +599,7 @@ blockquote:after {
 
 blockquote.blockquote-reverse:after {
 	left:auto;
-	right:1px;	
+	right:1px;
 }
 
 .blockquote-icon {
@@ -639,7 +639,7 @@ blockquote.blockquote-reverse:after {
 	left:auto;
 	right:5px;
 	content:'\f10e';
-}	
+}
 
 .highlight {
 	padding:0 0.3em;
@@ -747,7 +747,7 @@ a.text-white:focus {
 /* =============================================
 -----  2. Elements / Bootstrap Overwrite   -----
 ==============================================*/
-	
+
 /* --------------------------------------
 2.1 Dropdown menu ------------------------ */
 
@@ -1191,12 +1191,12 @@ select.form-group-lg .form-control {
 	border-left:1px solid rgba(0, 0, 0, .05);
 }
 
-.input-group-btn:last-child > .btn, 
+.input-group-btn:last-child > .btn,
 .input-group-btn:last-child > .btn-group {
 	margin-left:0;
 }
 
-.bootstrap-touchspin .input-group-btn:last-child > .btn, 
+.bootstrap-touchspin .input-group-btn:last-child > .btn,
 .bootstrap-touchspin .input-group-btn:last-child > .btn-group {
 	margin-left:-1px;
 }
@@ -1299,7 +1299,7 @@ input[type="checkbox"] {
 
 .radio label,
 .checkbox label,
-.radio-inline, 
+.radio-inline,
 .checkbox-inline {
 	padding-left:22px;
 }
@@ -1310,17 +1310,17 @@ input[type="checkbox"] {
 }
 
 /* Custom checkbox and radio */
-.radio label.custom-radio-wrapper, 
+.radio label.custom-radio-wrapper,
 .checkbox label.custom-checkbox-wrapper {
 	padding-left:0;
 }
 
-.radio-inline.custom-radio-wrapper, 
+.radio-inline.custom-radio-wrapper,
 .checkbox-inline.custom-checkbox-wrapper {
 	padding-left:0;
 }
 
-.radio-inline.custom-radio-wrapper+.radio-inline.custom-radio-wrapper, 
+.radio-inline.custom-radio-wrapper+.radio-inline.custom-radio-wrapper,
 .checkbox-inline.custom-checkbox-wrapper+.checkbox-inline.custom-checkbox-wrapper {
 	margin-left:30px;
 }
@@ -1351,7 +1351,7 @@ input[type="checkbox"] {
 	margin-right:0;
 }
 
-.custom-radio-container { 
+.custom-radio-container {
 	border-radius: 50px;
 }
 
@@ -1740,7 +1740,7 @@ fieldset[disabled] .form-control {
 	.nav-pills > li > a > i{
 		display:none;
 	}
-	
+
 	/* Prevent text Overflow for nav-tabs */
 	.nav-tabs > li > a,
 	.nav-pills > li > a  {
@@ -1752,7 +1752,7 @@ fieldset[disabled] .form-control {
 }
 
 @media (min-width: 768px){
-	
+
 	.vertical-tab  {
 		display:table;
 	}
@@ -1909,7 +1909,7 @@ fieldset[disabled] .form-control {
 	overflow:visible;
 }
 
-.progress-bar { 
+.progress-bar {
 	text-align: right;
 	padding-right:15px;
 	box-shadow:none;
@@ -2193,7 +2193,7 @@ a.list-group-item:focus {
 	border-top-color: #eaeaea;
 }
 
-.panel-group .panel-heading + .panel-collapse > .panel-body, 
+.panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
 	border-top-color: #eaeaea;
 }
@@ -2486,7 +2486,7 @@ a.list-group-item:focus {
 
 /* You can Delete this code if you don't use vector world map see (elements-maps.hmtl) */
 /*!
- * jQVMap Version 1.0 
+ * jQVMap Version 1.0
  *
  * http://jqvmap.com
  *
@@ -2494,7 +2494,7 @@ a.list-group-item:focus {
  * Licensed under the MIT license.
  *
  * Fork Me @ https://github.com/manifestinteractive/jqvmap
- */ 
+ */
 
 .jqvmap-label {
 	position: absolute;
@@ -3651,7 +3651,7 @@ a.list-group-item:focus {
 }
 
 @media (min-width: 768px) {
-	
+
 	.callout-left {
 		padding-right: 25px;
 	}
@@ -3860,7 +3860,7 @@ a.list-group-item:focus {
 	.navbar-top .dropdown-toggle {
 		padding:0 15px;
 	}
-	
+
 	.navbar-top .dropdowns-container.pull-right.last .currency-dropdown .dropdown-toggle {
 		padding-right:0;
 	}
@@ -3875,7 +3875,7 @@ a.list-group-item:focus {
 	border:1px solid transparent;
 	border-radius: 0;
 	min-width:100%;
-	
+
 }
 
 .navbar-top .dropdown-menu > li > a {
@@ -4056,7 +4056,7 @@ a.list-group-item:focus {
 .navbar-toggle .icon-bar,
 .btn-toggle .icon-bar,
 .navbar-toggle .icon-bar:before,
-.btn-toggle .icon-bar:before, 
+.btn-toggle .icon-bar:before,
 .navbar-toggle .icon-bar:after,
 .btn-toggle .icon-bar:after {
 	display: inline-block;
@@ -4067,7 +4067,7 @@ a.list-group-item:focus {
 	-webkit-transition: all 0.35s ease;
 }
 
-.navbar-toggle .icon-bar:before, 
+.navbar-toggle .icon-bar:before,
 .navbar-toggle .icon-bar:after,
 .btn-toggle .icon-bar:before,
 .btn-toggle .icon-bar:after {
@@ -4160,7 +4160,7 @@ a.list-group-item:focus {
 	margin-left:10px;
 }
 
-.navbar-btn.navbar-right, 
+.navbar-btn.navbar-right,
 .navbar-btn.pull-right {
 	margin-left:0;
 	margin-right:10px;
@@ -4262,7 +4262,7 @@ a.list-group-item:focus {
 		font-size:16px;
 		margin:2px 0 0;
 	}
-	
+
 	/* FADE ANIMATION FOR MOBILE MENU */
 	.navbar-nav .open> .dropdown-menu {
 		-webkit-animation-duration: 0.4s;
@@ -4279,13 +4279,13 @@ a.list-group-item:focus {
 }
 
 @media (min-width: 768px) {
-	
-	.container > .navbar-collapse, 
+
+	.container > .navbar-collapse,
 	.container-fluid > .navbar-collapse {
 		margin-right:-15px;
 		margin-left:-15px;
 	}
-	
+
 	.navbar-collapse.collapse-row {
 		border-top:1px solid transparent;
 	}
@@ -4318,7 +4318,7 @@ a.list-group-item:focus {
 	.navbar-nav > li > a {
 		padding:15px;
 	}
-	
+
 	.navbar-nav-border > li > a {
 		border-right:1px solid transparent;
 	}
@@ -4352,7 +4352,7 @@ a.list-group-item:focus {
 		left:15px;
 		right:15px;
 	}
-  	
+
 	.navbar-nav li > .dropdown-menu {
 		border:none;
 		border-top:1px solid transparent;
@@ -4362,7 +4362,7 @@ a.list-group-item:focus {
 		padding:7px 0;
 	}
 
-  
+
 	.navbar-nav li > .dropdown-menu.megamenu {
 		float:none;
 		padding-top:20px;
@@ -4420,7 +4420,7 @@ a.list-group-item:focus {
 		line-height: 32px;
 		font-size:14px;
 	}
-	
+
 	.navbar-smaller .navbar-btn {
 		margin:14px 0;
 	}
@@ -4432,7 +4432,7 @@ a.list-group-item:focus {
 }
 
 @media (min-width: 992px) {
-	
+
 	.navbar-header {
 		float:left;
 		border-bottom:none;
@@ -4455,7 +4455,7 @@ a.list-group-item:focus {
 	.megamenu-container .container-fluid {
 		padding: 0 30px;
 	}
-	
+
 	.container .megamenu-container .container-fluid,
 	.container .megamenu-container .container-fluid,
 	.boxed .container-fluid .megamenu-container .container-fluid,
@@ -4470,7 +4470,7 @@ a.list-group-item:focus {
 	.navbar-collapse.collapse-row {
 		padding:0 30px;
 	}
-	
+
 	.boxed .navbar-collapse.collapse-row,
 	.boxed-long .navbar-collapse.collapse-row {
 		padding:0;
@@ -4485,7 +4485,7 @@ a.list-group-item:focus {
 	.boxed-container .navbar-collapse.collapse-row {
 		padding:0 15px;
 	}
-	
+
 	.navbar-nav > li > a {
 		padding:40px 15px;
 	}
@@ -4520,10 +4520,10 @@ a.list-group-item:focus {
 	.boxed-long .navbar-btn.pull-right.last {
 		margin-right:0;
 	}
-	
+
 }
 
-@media (min-width: 992px) and (max-width:1199px) { 
+@media (min-width: 992px) and (max-width:1199px) {
 	.navbar-nav > li > a {
 		padding:40px 12px;
 	}
@@ -4967,7 +4967,7 @@ a.list-group-item:focus {
 	.boxed-long .side-menu.header-side-menu.right {
 		right:auto;
 	}
-	
+
 	.side-menu.header-side-menu .side-menu-btn,
 	.header-side-menu.opened + #main-content + .boss-menu-overlay {
 		display: none;
@@ -5098,8 +5098,8 @@ a.list-group-item:focus {
 }
 
 
-/* 
-----  DROPDOWN / MENU ANIMATIONS BY CLASS 
+/*
+----  DROPDOWN / MENU ANIMATIONS BY CLASS
 
 Animations - add these clases to the parent element - Navbar Or dropdown
 1.fade - add navbar "fade-dropdown" class
@@ -5292,7 +5292,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 
 }
 
-/* Navbar styling - via classes - 5 navbar color predefined classes 
+/* Navbar styling - via classes - 5 navbar color predefined classes
 	1.navbar-default
 	2.navbar-white
 	3.navbar-inverse
@@ -5366,7 +5366,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 .navbar-default .navbar-nav .megamenu-title:hover,
 .navbar-default .dropdown-menu > li > a:hover,
 .navbar-default .dropdown-menu > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background-color: transparent;
 }
@@ -5568,7 +5568,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 	.navbar-default .navbar-nav .megamenu-title {
 		border-bottom-color: #cacaca;
 	}
-	
+
 	.navbar-default .navbar-nav li > .dropdown-menu {
 		box-shadow:0 4px 9px rgba(0,0,0, 0.2);
 		-webkit-box-shadow:0 4px 9px rgba(0,0,0, 0.2);
@@ -5707,7 +5707,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 .navbar-white .navbar-nav .megamenu-title:hover,
 .navbar-white .dropdown-menu > li > a:hover,
 .navbar-white .dropdown-menu > li > a:focus,
-.navbar-white .navbar-nav > li > a:hover, 
+.navbar-white .navbar-nav > li > a:hover,
 .navbar-white .navbar-nav > li > a:focus {
 	background-color: transparent;
 }
@@ -5904,7 +5904,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 	.navbar-white .navbar-nav .megamenu-title {
 		border-bottom-color: #eaeaea;
 	}
-	
+
 	.navbar-white .navbar-nav li > .dropdown-menu {
 		box-shadow:0 5px 9px rgba(0,0,0, 0.18);
 		-webkit-box-shadow:0 5px 9px rgba(0,0,0, 0.18);
@@ -6052,7 +6052,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 .navbar-inverse .navbar-nav .megamenu-title:hover,
 .navbar-inverse .dropdown-menu > li > a:hover,
 .navbar-inverse .dropdown-menu > li > a:focus,
-.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
 	color:#bebebe;
 	background-color: transparent;
@@ -6243,7 +6243,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 	.navbar-inverse .navbar-nav .megamenu-title {
 		border-bottom-color: #4e4e4e;
 	}
-	
+
 	.navbar-inverse .navbar-nav li > .dropdown-menu {
 		box-shadow:0 4px 9px rgba(0,0,0, 0.2);
 		-webkit-box-shadow:0 4px 9px rgba(0,0,0, 0.2);
@@ -6324,7 +6324,7 @@ Animations - add these clases to the parent element - Navbar Or dropdown
 }
 
 /* 4. Navbar Transparent */
-/* You shuld use this page header largest 
+/* You shuld use this page header largest
 or the section with padding top more than header's height */
 .navbar-transparent {
 	background-color: transparent !important;
@@ -6352,7 +6352,7 @@ or the section with padding top more than header's height */
 }
 
 
-/* White Color */ 
+/* White Color */
 .navbar-white.navbar-transparent {
 	border-color: #e1e1e1;
 }
@@ -6452,26 +6452,26 @@ or the section with padding top more than header's height */
 }
 
 @media (min-width: 768px) {
-	/* Transparent + white menu link color*/ 
+	/* Transparent + white menu link color*/
 	.navbar-white.navbar-transparent .navbar-text,
 	.navbar-white.navbar-transparent .navbar-nav > li > a {
 		color: #f1f1f1;
 	}
 
-	.navbar-white.navbar-transparent .navbar-nav > li > a:hover, 
+	.navbar-white.navbar-transparent .navbar-nav > li > a:hover,
 	.navbar-white.navbar-transparent .navbar-nav > li > a:focus,
 	.navbar-white.navbar-transparent .navbar-nav > li.open > a,
 	.navbar-white.navbar-transparent .navbar-nav > li.active > a {
 		background-color: transparent;
 	}
 
-	/* Transparent + dark menu link color*/ 
+	/* Transparent + dark menu link color*/
 	.navbar-inverse.navbar-transparent .navbar-text,
 	.navbar-inverse.navbar-transparent .navbar-nav > li > a {
 		color: #3e3e3e;
 	}
 
-	.navbar-inverse.navbar-transparent .navbar-nav > li > a:hover, 
+	.navbar-inverse.navbar-transparent .navbar-nav > li > a:hover,
 	.navbar-inverse.navbar-transparent .navbar-nav > li > a:focus,
 	.navbar-inverse.navbar-transparent .navbar-nav > li.open > a,
 	.navbar-inverse.navbar-transparent .navbar-nav > li.active > a  {
@@ -6544,7 +6544,7 @@ or the section with padding top more than header's height */
 
 #header.sticky-menu.fixed .navbar-inverse.navbar-transparent,
 .navbar-inverse.navbar-transparent .sticky-menu.fixed,
-.navbar-inverse.navbar-transparent .sticky-menu.fixed .boxed-container .collapse-row, 
+.navbar-inverse.navbar-transparent .sticky-menu.fixed .boxed-container .collapse-row,
 .navbar-inverse.navbar-transparent .sticky-menu.fixed .boxed-container .navbar-header.fullwidth,
 .navbar-white .sticky-menu.fixed .navbar-collapse.collapse-row {
 	background-color: #fff !important;
@@ -6636,21 +6636,21 @@ or the section with padding top more than header's height */
 	padding:3px;
 }
 
-.sticky-menu.fixed .navbar-toggle .icon-bar, 
-.sticky-menu.fixed .btn-toggle .icon-bar, 
-.sticky-menu.fixed .navbar-toggle .icon-bar:before, 
-.sticky-menu.fixed .btn-toggle .icon-bar:before, 
-.sticky-menu.fixed .navbar-toggle .icon-bar:after, 
+.sticky-menu.fixed .navbar-toggle .icon-bar,
+.sticky-menu.fixed .btn-toggle .icon-bar,
+.sticky-menu.fixed .navbar-toggle .icon-bar:before,
+.sticky-menu.fixed .btn-toggle .icon-bar:before,
+.sticky-menu.fixed .navbar-toggle .icon-bar:after,
 .sticky-menu.fixed .btn-toggle .icon-bar:after {
 	width:12px;
 }
 
-.sticky-menu.fixed .navbar-toggle .icon-bar:before, 
+.sticky-menu.fixed .navbar-toggle .icon-bar:before,
 .sticky-menu.fixed .btn-toggle .icon-bar:before {
 	top:4px;
 }
 
-.sticky-menu.fixed .navbar-toggle .icon-bar:after, 
+.sticky-menu.fixed .navbar-toggle .icon-bar:after,
 .sticky-menu.fixed .btn-toggle .icon-bar:after {
 	top:-4px;
 }
@@ -6706,7 +6706,7 @@ or the section with padding top more than header's height */
 	#content .container-fluid.no-padding {
 		padding:0;
 	}
-	
+
 }
 
 @media (min-width: 992px) {
@@ -6883,7 +6883,7 @@ or the section with padding top more than header's height */
 		padding-top:170px;
 		padding-bottom:30px;
 	}
-	
+
 	.page-header.larger2x {
 		padding:50px 0;
 	}
@@ -7368,7 +7368,7 @@ or the section with padding top more than header's height */
 }
 
 .carousel-tab .carousel-indicators li:hover i {
-	transform:rotate(360deg); 
+	transform:rotate(360deg);
 	-wekbit-transform:rotate(360deg);
 	-ms-transform:rotate(360deg);
 }
@@ -7813,8 +7813,8 @@ Blog Homepages ---------------------*/
 	display: none;
 }
 
-.entry.entry-overlay .entry-media figure > a:after, 
-.entry.entry-overlay .entry-media .item > a:after, 
+.entry.entry-overlay .entry-media figure > a:after,
+.entry.entry-overlay .entry-media .item > a:after,
 .entry.entry-overlay .entry-media.embed-responsive:after {
 	background-color: rgba(255, 255, 255, 0.1);
 }
@@ -7903,7 +7903,7 @@ Magazine Homepages --------------------*/
 
 .sidebar.dark-sidebar a,
 .sidebar.dark-sidebar .widget .links li a,
-.sidebar.dark-sidebar .widget .latest-posts-list li a, 
+.sidebar.dark-sidebar .widget .latest-posts-list li a,
 .sidebar.dark-sidebar .widget .products-list li a {
 	color:#9a9a9a;
 }
@@ -7912,9 +7912,9 @@ Magazine Homepages --------------------*/
 .sidebar.dark-sidebar a:focus,
 .sidebar.dark-sidebar .widget .links li a:hover,
 .sidebar.dark-sidebar .widget .links li a:focus,
-.sidebar.dark-sidebar .widget .latest-posts-list li a:hover, 
+.sidebar.dark-sidebar .widget .latest-posts-list li a:hover,
 .sidebar.dark-sidebar .widget .products-list li a:hover,
-.sidebar.dark-sidebar .widget .latest-posts-list li a:focus, 
+.sidebar.dark-sidebar .widget .latest-posts-list li a:focus,
 .sidebar.dark-sidebar .widget .products-list li a:focus {
 	color:#fafafa;
 }
@@ -7927,16 +7927,16 @@ Magazine Homepages --------------------*/
 	border-color:#8a8a8a;
 }
 
-.entry-block.entry .entry-media figure > a:after, 
-.entry-block.entry .entry-media .item > a:after, 
+.entry-block.entry .entry-media figure > a:after,
+.entry-block.entry .entry-media .item > a:after,
 .entry-block.entry .entry-media.embed-responsive:after {
 	visibility: hidden;
 	opacity:0;
 	background-color: rgba(0,0,0,0.35);
 }
 
-.entry-block.entry:hover .entry-media figure > a:after, 
-.entry-block.entry:hover .entry-media .item > a:after, 
+.entry-block.entry:hover .entry-media figure > a:after,
+.entry-block.entry:hover .entry-media .item > a:after,
 .entry-block.entry:hover .entry-media.embed-responsive:after {
 	opacity:1;
 	visibility: visible;
@@ -7966,7 +7966,7 @@ Magazine Homepages --------------------*/
 }
 
 .entry-block .entry-overlay-meta,
-.entry-block .entry-overlay-meta .entry-separator, 
+.entry-block .entry-overlay-meta .entry-separator,
 .entry-block .entry-overlay-meta a {
 	color:#f1f1f1;
 }
@@ -7990,8 +7990,8 @@ Magazine Homepages --------------------*/
 	color:#2a2a2a;
 }
 
-.entry-block.entry.red .entry-media figure > a:after, 
-.entry-block.entry.red .entry-media .item > a:after, 
+.entry-block.entry.red .entry-media figure > a:after,
+.entry-block.entry.red .entry-media .item > a:after,
 .entry-block.entry.red .entry-media.embed-responsive:after {
 	background: rgba(239,83,80,0.35);
 }
@@ -8007,8 +8007,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ef5350', endColorstr='#a6ef5350',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.orange .entry-media figure > a:after, 
-.entry-block.entry.orange .entry-media .item > a:after, 
+.entry-block.entry.orange .entry-media figure > a:after,
+.entry-block.entry.orange .entry-media .item > a:after,
 .entry-block.entry.orange .entry-media.embed-responsive:after {
 	background: rgba(255,193,7,0.35);
 }
@@ -8024,8 +8024,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffc107', endColorstr='#a6ffc107',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.yellow .entry-media figure > a:after, 
-.entry-block.entry.yellow .entry-media .item > a:after, 
+.entry-block.entry.yellow .entry-media figure > a:after,
+.entry-block.entry.yellow .entry-media .item > a:after,
 .entry-block.entry.yellow .entry-media.embed-responsive:after {
 	background: rgba(255,235,59,0.35);
 }
@@ -8041,8 +8041,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffeb3b', endColorstr='#a6ffeb3b',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.blue .entry-media figure > a:after, 
-.entry-block.entry.blue .entry-media .item > a:after, 
+.entry-block.entry.blue .entry-media figure > a:after,
+.entry-block.entry.blue .entry-media .item > a:after,
 .entry-block.entry.blue .entry-media.embed-responsive:after {
 	background: rgba(41,182,246,0.35);
 }
@@ -8058,8 +8058,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0029b6f6', endColorstr='#a629b6f6',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.green .entry-media figure > a:after, 
-.entry-block.entry.green .entry-media .item > a:after, 
+.entry-block.entry.green .entry-media figure > a:after,
+.entry-block.entry.green .entry-media .item > a:after,
 .entry-block.entry.green .entry-media.embed-responsive:after {
 	background: rgba(102,187,106,0.35);
 }
@@ -8075,8 +8075,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066bb6a', endColorstr='#a666bb6a',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.purple .entry-media figure > a:after, 
-.entry-block.entry.purple .entry-media .item > a:after, 
+.entry-block.entry.purple .entry-media figure > a:after,
+.entry-block.entry.purple .entry-media .item > a:after,
 .entry-block.entry.purple .entry-media.embed-responsive:after {
 	background: rgba(171,71,188,0.35);
 }
@@ -8092,8 +8092,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ab47bc', endColorstr='#a6ab47bc',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.pink .entry-media figure > a:after, 
-.entry-block.entry.pink .entry-media .item > a:after, 
+.entry-block.entry.pink .entry-media figure > a:after,
+.entry-block.entry.pink .entry-media .item > a:after,
 .entry-block.entry.pink .entry-media.embed-responsive:after {
 	background: rgba(236,64,122,0.35);
 }
@@ -8109,8 +8109,8 @@ Magazine Homepages --------------------*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ec407a', endColorstr='#a6ec407a',GradientType=0 ); /* IE6-9 */
 }
 
-.entry-block.entry.lightgreen .entry-media figure > a:after, 
-.entry-block.entry.lightgreen .entry-media .item > a:after, 
+.entry-block.entry.lightgreen .entry-media figure > a:after,
+.entry-block.entry.lightgreen .entry-media .item > a:after,
 .entry-block.entry.lightgreen .entry-media.embed-responsive:after {
 	background: rgba(212,225,87,0.35);
 }
@@ -8170,114 +8170,114 @@ Magazine Homepages --------------------*/
 	color:#fff;
 }
 
-.title-border.title-bg.red, 
-.title-bg-line.red:after, 
+.title-border.title-bg.red,
+.title-bg-line.red:after,
 .title-underblock.red:after,
 .red .category-block {
 	background-color: #ef5350 ;
 }
 
-.title-border.red, 
-.title-border.text-right.red, 
-.title-border.text-center.red > span, 
+.title-border.red,
+.title-border.text-right.red,
+.title-border.text-center.red > span,
 .title-bottom-border.red {
 	border-color:#ef5350 ;
 }
 
-.title-border.title-bg.orange, 
-.title-bg-line.orange:after, 
+.title-border.title-bg.orange,
+.title-bg-line.orange:after,
 .title-underblock.orange:after,
 .orange .category-block {
 	background-color: #ffc107;
 }
 
-.title-border.orange, 
-.title-border.text-right.orange, 
-.title-border.text-center.orange > span, 
+.title-border.orange,
+.title-border.text-right.orange,
+.title-border.text-center.orange > span,
 .title-bottom-border.orange {
 	border-color:#ffc107;
 }
 
-.title-border.title-bg.yellow, 
-.title-bg-line.yellow:after, 
+.title-border.title-bg.yellow,
+.title-bg-line.yellow:after,
 .title-underblock.yellow:after,
 .yellow .category-block {
 	background-color: #ffeb3b;
 }
 
-.title-border.yellow, 
-.title-border.text-right.yellow, 
-.title-border.text-center.yellow > span, 
+.title-border.yellow,
+.title-border.text-right.yellow,
+.title-border.text-center.yellow > span,
 .title-bottom-border.yellow {
 	border-color:#ffeb3b;
 }
 
-.title-border.title-bg.blue, 
-.title-bg-line.blue:after, 
+.title-border.title-bg.blue,
+.title-bg-line.blue:after,
 .title-underblock.blue:after,
 .blue .category-block {
 	background-color: #29b6f6;
 }
 
-.title-border.blue, 
-.title-border.text-right.blue, 
-.title-border.text-center.blue > span, 
+.title-border.blue,
+.title-border.text-right.blue,
+.title-border.text-center.blue > span,
 .title-bottom-border.blue {
 	border-color:#29b6f6;
 }
 
-.title-border.title-bg.green, 
-.title-bg-line.green:after, 
+.title-border.title-bg.green,
+.title-bg-line.green:after,
 .title-underblock.green:after,
 .green .category-block {
 	background-color: #66bb6a;
 }
 
-.title-border.green, 
-.title-border.text-right.green, 
-.title-border.text-center.green > span, 
+.title-border.green,
+.title-border.text-right.green,
+.title-border.text-center.green > span,
 .title-bottom-border.green {
 	border-color:#66bb6a;
 }
 
-.title-border.title-bg.purple, 
-.title-bg-line.purple:after, 
+.title-border.title-bg.purple,
+.title-bg-line.purple:after,
 .title-underblock.purple:after,
 .purple .category-block {
 	background-color: #ab47bc;
 }
 
-.title-border.purple, 
-.title-border.text-right.purple, 
-.title-border.text-center.purple > span, 
+.title-border.purple,
+.title-border.text-right.purple,
+.title-border.text-center.purple > span,
 .title-bottom-border.purple {
 	border-color:#ab47bc;
 }
 
-.title-border.title-bg.pink, 
-.title-bg-line.pink:after, 
+.title-border.title-bg.pink,
+.title-bg-line.pink:after,
 .title-underblock.pink:after,
 .pink .category-block {
 	background-color: #ec407a;
 }
 
-.title-border.pink, 
-.title-border.text-right.pink, 
-.title-border.text-center.pink > span, 
+.title-border.pink,
+.title-border.text-right.pink,
+.title-border.text-center.pink > span,
 .title-bottom-border.pink {
 	border-color:#ec407a;
 }
 
-.title-border.title-bg.lightgreen, 
-.title-bg-line.lightgreen:after, 
+.title-border.title-bg.lightgreen,
+.title-bg-line.lightgreen:after,
 .title-underblock.lightgreen:after,
 .lightgreen .category-block {
 	background-color: #d4e157;
 }
 
-.title-border.lightgreen, 
-.title-border.text-right.lightgreen, 
-.title-border.text-center.lightgreen > span, 
+.title-border.lightgreen,
+.title-border.text-right.lightgreen,
+.title-border.text-center.lightgreen > span,
 .title-bottom-border.lightgreen {
 	border-color:#d4e157;
 }
@@ -8481,7 +8481,7 @@ Magazine Homepages --------------------*/
 	.navbar-nav-colored.navbar-nav > li:nth-child(7) > a {
 		border-top-color:#ec407a !important;
 	}
-	
+
 	.navbar-nav-colored.navbar-nav > li:nth-child(8) > a {
 		border-top-color:#d4e157 !important;
 	}
@@ -8895,7 +8895,7 @@ Onepage Homepages --------------------*/
 }
 
 /* Workaround vh unit for mobile */
-/** 
+/**
  * iPad with portrait orientation.
  */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
@@ -8903,8 +8903,8 @@ Onepage Homepages --------------------*/
     height: 1024px;
   }
 }
- 
-/** 
+
+/**
  * iPad with landscape orientation.
  */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
@@ -8912,7 +8912,7 @@ Onepage Homepages --------------------*/
     height: 768px;
   }
 }
- 
+
 /**
  * iPhone 5
  */
@@ -9484,7 +9484,7 @@ Onepage Homepages --------------------*/
 .pricing-table.flat .pricing-list li:nth-child(2n+1),
 .pricing-table.flat .pricing-list li:hover {
 	background-color: transparent !important;
-} 
+}
 
 .pricing-action {
 	text-align: center;
@@ -9965,7 +9965,7 @@ Onepage Homepages --------------------*/
 	.entry-media {
 		margin-bottom:25px;
 	}
-	
+
 	.entry-title {
 		font-size:20px;
 	}
@@ -10247,7 +10247,7 @@ Onepage Homepages --------------------*/
 	color:#fff;
 }
 
-.sidebar .widget .latest-posts-list h5, 
+.sidebar .widget .latest-posts-list h5,
 .sidebar .widget .products-list h5 {
 	font-family: 'Open Sans', Verdana, sans-serif;
 }
@@ -10592,7 +10592,7 @@ Onepage Homepages --------------------*/
 	.max-col-2 .entry {
 		width: calc( (100% - 15px) / 2 );
 	}
-	
+
 	.entry-box .entry-media .entry-audio-container {
 		bottom:15px;
 		right:15px;
@@ -10756,7 +10756,7 @@ Onepage Homepages --------------------*/
 	.comments {
 		margin-bottom:60px;
 	}
-	
+
 	.about-author figure {
 		display:block;
 	}
@@ -11271,7 +11271,7 @@ Onepage Homepages --------------------*/
 		top:25px;
 		border-width: 10px 0 10px 10px;
 	}
-	
+
 	.testimonial.testimonial-vertical .testimonial-content,
 	.testimonial.testimonial-vertical.reverse .testimonial-content  {
 		padding:20px;
@@ -11466,7 +11466,7 @@ Onepage Homepages --------------------*/
 		margin-bottom: 90px;
 	}
 
-	
+
 
 	.page-top h1 {
 		font-size:32px;
@@ -11528,10 +11528,10 @@ Onepage Homepages --------------------*/
 		margin-bottom: 50px;
 	}
 
-	#map.map2 { 
+	#map.map2 {
 		height:600px;
 	}
-	
+
 	#map.map3 {
 		margin:50px 0 60px;
 	}
@@ -12387,7 +12387,7 @@ label.error {
 
 @media (min-width: 768px) {
 	.category-banner,
-	.filter-row { 
+	.filter-row {
 		margin-bottom: 40px;
 	}
 }
@@ -12926,7 +12926,7 @@ noUi-target,
 }
 
 .table .product-title {
-	font-size:17px; 
+	font-size:17px;
 	line-height: 23px;
 	margin-top:5px;
 	margin-bottom: 7px;
@@ -13011,7 +13011,7 @@ noUi-target,
 .table .table-info-content.table-total-content {
 	font-size:20px;
 	color:#e53935;
-} 
+}
 
 @media (max-width: 991px) {
 
@@ -13060,8 +13060,8 @@ noUi-target,
 	.table-responsive.total-table-responsive {
 		border-top:none;
 	}
-		
-	.table thead > tr, 
+
+	.table thead > tr,
 	.table tbody > tr {
 		border:none;
 	}
@@ -13081,7 +13081,7 @@ noUi-target,
 	.table .price-col {
 		padding:15px 10px;
 	}
-	
+
 	.table .price-total-col {
 		font-size:16px;
 		padding-right:15px;
@@ -13094,7 +13094,7 @@ noUi-target,
 		padding-right: 10px;
 	}
 
-	.table .quantity-col .bootstrap-touchspin-up.btn, 
+	.table .quantity-col .bootstrap-touchspin-up.btn,
 	.table .quantity-col .bootstrap-touchspin-down.btn {
 		padding-right:6px;
 		padding-left:6px;
@@ -13408,7 +13408,7 @@ noUi-target,
 		padding:0 13px;
 		font-size: 16px;
 	}
-	
+
 	.checkout .step-box  {
 		left:0;
 		font-size:16px;
@@ -13790,7 +13790,7 @@ noUi-target,
 	background-color: #f6f6f6;
 }
 
-/* change this depends on the color 
+/* change this depends on the color
 white - custom - dark of your color scheme */
 #portfolio-item-container .portfolio-item.push {
 	background-color: #2a2a2a;
@@ -14125,7 +14125,7 @@ white - custom - dark of your color scheme */
 	.portfolio-related-container  {
 		margin-bottom:58px;
 	}
-	
+
 	.portfolio-media.fullwidth-media {
 		margin-bottom: 60px;
 	}
@@ -14170,7 +14170,7 @@ white - custom - dark of your color scheme */
 }
 
 /* Fix for ie 10 + */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
    .error-title.shadow,
 	.error-subtitle.shadow {
 		color:#fff !important;
@@ -14315,7 +14315,7 @@ white - custom - dark of your color scheme */
 }
 
 @media (min-width: 768px) {
-	
+
 	#footer-top-map {
 		height:360px;
 	}
@@ -14712,8 +14712,10 @@ white - custom - dark of your color scheme */
 }
 
 .footer-menu li:after {
-	content:'/';
-	padding:0 10px;
+	content: "\2022";
+	padding:0 6px;
+  font-size: 10px;
+  line-height: 14px;
 }
 
 .footer-menu li:last-child:after {
@@ -14759,7 +14761,7 @@ white - custom - dark of your color scheme */
 
 }
 
-/* 
+/*
 	There 4 color schemes for footers
 	Footer Colors - You can add these class to all footer variants and chnage their color scheme
 	White - No additional class need This is main style
@@ -15430,7 +15432,7 @@ white - custom - dark of your color scheme */
 	}
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -15441,7 +15443,7 @@ white - custom - dark of your color scheme */
 	transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -15537,7 +15539,7 @@ white - custom - dark of your color scheme */
 	display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -15552,7 +15554,7 @@ white - custom - dark of your color scheme */
 	transform-style: preserve-3d;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
@@ -15673,7 +15675,7 @@ white - custom - dark of your color scheme */
 }
 
 
-/* To not crush dragging 
+/* To not crush dragging
 styled buttons not container for vertical centered navs*/
 .center-nav .owl-nav {
 	position: static;
@@ -15955,7 +15957,7 @@ styled buttons not container for vertical centered navs*/
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
-	
+
 	/* Patterns via predefined classes */
 	.pattern4 {
 		background-image: url('../images/patterns/pattern4@2x.png');
