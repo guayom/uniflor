@@ -3,6 +3,7 @@ title: Products
 layout: products
 header_class: largest no-margin-bottom
 identifier: products
+weight: 15
 ---
 
   <table class="table table-bordered table-striped table-matriz table-fixed">
@@ -27,7 +28,7 @@ identifier: products
                 {{p[0] | capitalize}}
               </td>
             {% endif %}
-            <td class="{{p[0]}} filterable-cell">{{ p1.name | capitalize }}</td>
+            <td class="{{p[0]}} filterable-cell">{{ p1.name | capitalize_all }}</td>
             {% for company in site.data.productos.empresas %}
               <td class="text-center bullet">
                 {% if p1.companies contains company[0] %}&#8226;{% endif %}

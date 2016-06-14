@@ -9,13 +9,13 @@ empresas:
 
 products:
  flowers:
-  - name: agapanthus
+  - name: "Agapanthus"
     companies:
      - riotapezco
   - name: alpina
     companies:
      - delrio
-  - name: "ammi majus"
+  - name: "Ammi Majus"
     companies:
      - riotapezco
   - name: anthuriums
@@ -27,10 +27,10 @@ products:
   - name: aster
     companies:
      - riotapezco
-  - name: birds of paradise
+  - name: "Birds of paradise"
     companies:
      - riotapezco
-     - sula  
+     - sula
   - name: calatheas
     companies:
      - sula
@@ -85,7 +85,7 @@ products:
   - name: catpalm
     companies:
      - floreal
-  - name: "green/Black Ti"
+  - name: "Green / Black Ti"
     companies:
      - floreal
      - delrio
