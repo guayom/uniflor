@@ -300,7 +300,7 @@
 					railalign: alignRail
 				});
 
-				
+
 			}
 		},
 		collapseArrows : function () {
@@ -337,7 +337,7 @@
 		            template: '<div class="twitter-icon"><i class="fa fa-twitter"></i></div><div class="tweet-content">{text}{time}</div>'
 		            /* etc... */
 		        });
-		        
+
 		    }
 		},
 		tabLavaHover: function () {
@@ -364,7 +364,7 @@
 					parentWidth = $this.closest('.ratings').width(),
 					rating = $(this).data('result'),
 					newWidth = (parentWidth / 100) * rating;
-					
+
 				$(this).css('width', newWidth);
 			});
 		},
@@ -1017,7 +1017,7 @@
 	            loop:false,
 				margin:0,
 				responsiveClass:true,
-				nav:false,
+				nav:true,
 				navText: ['<i class="fa fa-angle-left">', '<i class="fa fa-angle-right">'],
 				dots: true,
 				items:1
@@ -1444,7 +1444,7 @@
 	        } else {
 	            scrollTop.removeClass('fixed');
 	        }
-		    
+
 		},
 		scrollToAnimation: function (speed, offset, e) {
 			/* General scroll to function */
@@ -1462,7 +1462,7 @@
 				var elem = $(targetEl),
 					targetPos = offset ? ( elem.offset().top + offset ) : elem.offset().top;
 			}
-			
+
 			if (targetEl || toTop) {
 				$('html, body').animate({
 		            'scrollTop': targetPos
@@ -1480,8 +1480,8 @@
 		scrollToClass: function () {
 			var self = this;
 			// Scroll to animation - predefined class
-			// Just add this class to any element and 
-			// add href attribute with target id (#targer like so ) for target 
+			// Just add this class to any element and
+			// add href attribute with target id (#targer like so ) for target
 			// you can change 0 offset to -60 (height of fixed header)
 			$('.scroll-btn, .section-btn, .scrollto').on('click', function (e) {
 				var offset = $(this).data('offset');
@@ -1510,7 +1510,7 @@
 				serialization: {
 					to: [ $('#price-range-low'), $('#price-range-high') ]
 				}
-				
+
 			});
 		},
 		filterColorBg: function () {
@@ -1562,7 +1562,7 @@
 					effect: "fade"
 				});
 			}
-			
+
 		},
 		boostrapSpinner: function () {
 			// Custom spinners
@@ -1656,12 +1656,12 @@
 						offset: function() {
 							return ( $(window).height() - 100);
 						},
-						triggerOnce: true 
+						triggerOnce: true
 					});
 				} else {
 					$('.count').countTo();
-				}	
-			} else { 
+				}
+			} else {
 				// fallback if count plugin doesn't included
 				// Get the data-to value and add it to element
 				$('.count').each(function () {
@@ -1707,7 +1707,7 @@
 				},
 				zoom: {
 					enabled: true,
-					duration: 400, // Duration for zoom animation 
+					duration: 400, // Duration for zoom animation
 					opener: function(element) {
 						return element.find('img');
 					}
@@ -1741,7 +1741,7 @@
 			});
 		},
 		videoBg: function () {
-			// for index7.html 
+			// for index7.html
 			// This plugin doesnt work on mobile devices
 			if (!this.mobile) {
 				if ($.fn.mb_YTPlayer) {
@@ -1753,7 +1753,7 @@
 		},
 		progressBars: function () {
 			var self = this;
-			// Calculate and Animate Progress 
+			// Calculate and Animate Progress
 			// With waypoing plugin calculate width of the progress bar
 			if ($.fn.waypoint) {
 				$('.progress-animate').waypoint(function () {
@@ -1769,7 +1769,7 @@
 								$this.removeClass('progress-animate');
 							});
 						}, 100);
-						
+
 					} else {
 						// Animate knob --- Circle progrss bars
 						self.animateKnob();
@@ -1779,7 +1779,7 @@
 						return ( $(window).height() - 10);
 					}
 				});
-				
+
 
 			} else {
 				// Fallback if the waypoint plugin isn't included
@@ -1816,7 +1816,7 @@
 						animateTo = $this.data('animateto'),
 						animateSpeed = $this.data('animatespeed')
 					$this.animate(
-			                { value: animateTo }, 
+			                { value: animateTo },
 			                {   duration: animateSpeed,
 			                    easing: 'swing',
 		                    progress: function() {
@@ -1837,7 +1837,7 @@
 		scrollAnimations: function () {
 
 			/* 	// Wowy Plugin
-				Add Html elements wow and animation class 
+				Add Html elements wow and animation class
 				And you can add duration via data attributes
 				data-wow-duration: Change the animation duration
 				data-wow-delay: Delay before the animation starts
@@ -1873,7 +1873,7 @@
 					},
 					itemTemplate: '<li>' + '<a href="{{image}}" title="{{title}}">' + '<img src="{{image_s}}" alt="{{title}}" />' + '</a>' + '</li>'
 				});
-				
+
 			}
 		},
 		attachBg: function () {
@@ -1887,12 +1887,12 @@
 			});
 		},
 		parallax: function () {
-			// Parallax - if not mobile  with skrollr js plugin 
+			// Parallax - if not mobile  with skrollr js plugin
 			if ( !this.mobile && typeof skrollr === 'object') {
 				skrollr.init({
 					forceHeight: false
 				});
-			} 
+			}
 
 			if ( this.mobile ) {
 				/* if mobile, delete background attachment fixed from parallax class */
@@ -1912,7 +1912,7 @@
                 	transitionDuration: 0
             	});
 
-            	
+
 			}
 		},
 		isotopeReinit: function () {
@@ -1938,7 +1938,7 @@
 					filter: selector,
 					transitionDuration: '0.8s'
 				});
-				
+
 				$this.closest('li').addClass('active');
 				e.preventDefault();
 			});
@@ -1964,7 +1964,7 @@
 		infiniteScroll: function (itemContainer, itemSelector) {
 			if ($.fn.infinitescroll) {
 				itemContainer.infinitescroll({
-	                navSelector  : '#page-nav',    // selector for the paged navigation 
+	                navSelector  : '#page-nav',    // selector for the paged navigation
 	                nextSelector : '#page-nav a:first',  // selector for the NEXT link (to page 2)
 	                itemSelector : itemSelector,     // selector for all items you'll retrieve
 	                loading: {
@@ -1990,7 +1990,7 @@
 	        			if(xhr.status==404)$('a#infinite-trigger').addClass('disabled');
 	        		});
 				}
-        		
+
 			}
 		}
 
@@ -2021,7 +2021,7 @@
 
 	});
 
-	// Resize Event 
+	// Resize Event
 	// Smart resize if plugin not found window resize event
 	if($.event.special.debouncedresize) {
 		$(window).on('debouncedresize', function() {
@@ -2035,7 +2035,7 @@
 	    });
 	} else {
 		$(window).on('resize', function () {
-			
+
 			/* Full Height recall */
 			Boss.fullHeight();
 
